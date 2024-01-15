@@ -28,6 +28,6 @@ Undersampling was performed to reduce the number of samples in the training set 
 
 After running many models, with different resampling techniques and hyperparameters, the best performance on the validation set came when implementing a Random Forest classifier with max depth of 30, criterion of gini, and classification threshold of 0.4. This yielded an 88% recall, 78% F1-score, and 83% AUC. 
 
-Recall was given more emphasis because false negatives (predicting an individual to not have diabetes) are more costly than false positives (predicting an individual to have diabetes when they do not). A high F1-score shows that both recall and precision are at a reasonable level. An AUC of 0.83 suggests the model has a strong ability to distinguish the negative class from the positive class.
+Recall was given more emphasis because false negatives (predicting an individual to not have diabetes) are more costly than false positives (predicting an individual to have diabetes when they do not). A high F1-score shows that both recall and precision are at a reasonable level, and an AUC of 0.83 suggests the model has a strong ability to distinguish the negative class from the positive class.
 
 
